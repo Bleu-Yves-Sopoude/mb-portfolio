@@ -101,14 +101,14 @@ main {
       padding: 15px 100px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
+      
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-    padding: 15px 50px; }
+     }
 
     .link {
       flex-direction: row;
@@ -119,7 +119,7 @@ main {
       gap: 12px;
       justify-content: center;
       
-   }
-  
     }
+  
   }
+}
