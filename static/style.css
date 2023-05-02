@@ -9,7 +9,7 @@
     overflow: auto;
     justify-content: space-between; }
 
-  header {
+.header {
     display: flex;
     align-items: center;
     padding: 10px 24px;
