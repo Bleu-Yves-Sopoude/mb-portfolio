@@ -5,11 +5,9 @@
   box-sizing: border-box;
 }
 
-.navbar {
-    width: 100%;
+.navbar { width: 100%;
     overflow: auto;
-    justify-content: space-between;
-  }
+    justify-content: space-between; }
 
   header {
     display: flex;
@@ -18,17 +16,14 @@
     justify-content: space-between;
     background-color: white;
     position: fixed;
-    width: 100%;
-  }
+    width: 100%; }
 
 main {
-  overflow-y: auto;
-}
+  overflow-y: auto; }
 
 .button {
     position: absolute;
-    top:100%
-}
+    top:100% }
 
 .bio {
   height: 718px;
@@ -56,8 +51,7 @@ main {
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
-  padding: 10px 5px;
-}
+  padding: 10px 5px; }
 
 .container {
     display: flex;
@@ -88,19 +82,11 @@ main {
     margin: 4px 15px;
     cursor: pointer;
     align-items: center;
-    justify-content: center; 
-
-
-    
-  
-  
-  
-  }
+    justify-content: center; }
 
 @media screen and (min-width: 768px) {
   .menu-icon {
-    display: none;
-  }
+    display: none; }
 
   .bio {
     padding: 250px 260px; }
@@ -132,5 +118,6 @@ main {
     justify-content: center;
     align-items: center;
     justify-content: center; }
+  
   }
 }
