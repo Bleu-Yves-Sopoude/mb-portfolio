@@ -8,23 +8,23 @@
 .navbar {
     width:  100%;
     overflow:  auto;
-    justify-content: space-between; 
-    }
-  
+  justify-content: space-between;
+}
+
 .header {
-    display: flex;
-    align-items: center;
-    padding: 10px 24px;
-    justify-content: space-between;
-    background-color: white;
-    position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
     width: 100%; }
 
 main {
   overflow-y: auto; }
 
 .button {
-    position: absolute;
+  position: absolute;
     top:100% }
 
 .bio {
@@ -38,14 +38,14 @@ main {
   border-bottom-left-radius: 30%;
 }
 .bio-header {
-    font-family: Playfair Display;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 50px;
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
     letter-spacing: 0em;
-    text-align: left;
+  text-align: left;
     padding: 0px 4px; } 
-    
+
 .bio-info {
   font-family: Poppins;
   font-size: 14px;
@@ -56,14 +56,14 @@ main {
   padding: 10px 5px; }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     
-    flex-direction: column;
-    object-fit: contain;
-    background-size: cover;
-    height: auto;  
+  flex-direction: column;
+  object-fit: contain;
+  background-size: cover;
+  height: auto;
     padding: 60px 10px; }
 
 @media screen and (min-width: 375px) {
@@ -86,40 +86,40 @@ main {
     align-items: center;
     justify-content: center; }
 
-@media screen and (min-width: 768px) {
-  .menu-icon {
+  @media screen and (min-width: 768px) {
+    .menu-icon {
     display: none; }
 
-  .bio {
+    .bio {
     padding: 250px 260px; }
 
-  .link-text {
+    .link-text {
     display:flex;
     background-color: #1A2236; 
-    border: none;
-    color: white;
-    padding: 15px 100px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+      border: none;
+      color: white;
+      padding: 15px 100px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
     padding: 15px 50px; }
 
-  .link {
-    flex-direction: row;
-    margin-top: 30px;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
+    .link {
+      flex-direction: row;
+      margin-top: 30px;
+      display: flex;
+      list-style: none;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
     justify-content: center; }
   
+    }
   }
-}
