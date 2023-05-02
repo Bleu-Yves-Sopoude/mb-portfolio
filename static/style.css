@@ -5,10 +5,12 @@
   box-sizing: border-box;
 }
 
-.navbar { width: 100%;
-    overflow: auto;
-    justify-content: space-between; }
-
+.navbar {
+    width:  100%;
+    overflow:  auto;
+    justify-content: space-between; 
+    }
+  
 .header {
     display: flex;
     align-items: center;
@@ -70,7 +72,7 @@ main {
 
   .link-text {
     display:flex;
-    background-color:#1A2236;
+    background-color:#1a2236;
     ; 
     border: none;
     color: white;
