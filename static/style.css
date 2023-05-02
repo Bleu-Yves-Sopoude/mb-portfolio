@@ -25,7 +25,8 @@ main {
 
 .button {
   position: absolute;
-    top:100% }
+  top: 100%;
+}
 
 .bio {
   height: 718px;
@@ -43,9 +44,10 @@ main {
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
-    letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-    padding: 0px 4px; } 
+  padding: 0 4px;
+}
 
 .bio-info {
   font-family: Poppins;
@@ -54,27 +56,29 @@ main {
   line-height: 21px;
   letter-spacing: -0.01em;
   text-align: left;
-  padding: 10px 5px; }
+  padding: 10px 5px;
+}
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-    
   flex-direction: column;
   object-fit: contain;
   background-size: cover;
   height: auto;
-    padding: 60px 10px; }
+  padding: 60px 10px;
+}
 
 @media screen and (min-width: 375px) {
   .menu-icon {
-    display: block; }
+    display: block;
+  }
 
   .link-text {
-    display:flex;
-    background-color:#1a2236;
-    ; 
+    display: flex;
+    background-color: #1a2236;
+    
     border: none;
     color: white;
     padding: 15px 100px;
@@ -84,31 +88,33 @@ main {
     margin: 4px 15px;
     cursor: pointer;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+  }
 
   @media screen and (min-width: 768px) {
     .menu-icon {
-    display: none; }
+      display: none;
+    }
 
     .bio {
-    padding: 250px 260px; }
+      padding: 250px 260px;
+    }
 
     .link-text {
-    display:flex;
-    background-color: #1A2236; 
+      display: flex;
+      background-color: #1a2236;
       border: none;
       color: white;
       padding: 15px 100px;
       text-align: center;
       text-decoration: none;
-      
       font-size: 16px;
       margin: 4px 2px;
       cursor: pointer;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-     }
+    }
 
     .link {
       flex-direction: row;
@@ -118,8 +124,6 @@ main {
       align-items: center;
       gap: 12px;
       justify-content: center;
-      
     }
-  
   }
 }
