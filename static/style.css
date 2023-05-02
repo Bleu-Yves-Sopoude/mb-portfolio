@@ -6,8 +6,8 @@
 }
 
 .navbar {
-    width:  100%;
-    overflow:  auto;
+  width: 100%;
+  overflow: auto;
   justify-content: space-between;
 }
 
@@ -18,10 +18,12 @@
   justify-content: space-between;
   background-color: white;
   position: fixed;
-    width: 100%; }
+  width: 100%;
+}
 
 main {
-  overflow-y: auto; }
+  overflow-y: auto;
+}
 
 .button {
   position: absolute;
@@ -40,7 +42,7 @@ main {
 }
 
 .bio-header {
-  font-family: Playfair Display;
+  font-family: Playfair Display ,sans-serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 50px;
@@ -50,7 +52,7 @@ main {
 }
 
 .bio-info {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -78,7 +80,6 @@ main {
   .link-text {
     display: flex;
     background-color: #1a2236;
-    
     border: none;
     color: white;
     padding: 15px 100px;
@@ -127,7 +128,6 @@ main {
     }
 <<<<<<< HEAD
 =======
- 
 >>>>>>> 478fb84980a9489578f1a9fdfeeb3e13e58f156d
   }
 }
