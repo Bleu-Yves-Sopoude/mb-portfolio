@@ -14,7 +14,6 @@
 .logo {
   background-image: url("/Users/mrblue/Documents/projects/mb-portfolio/static/logo.png");
   background-repeat: no-repeat;
-  
   padding: 0px;
   margin: 0px;
   width: 200px;
@@ -87,9 +86,7 @@ main {
   height: auto;
   padding: 110% 59px;
   margin: 5%;
-  
-}
-
+  }
 @media screen and (min-width: 375px) {
   .menu-icon {
     display: block;
@@ -104,7 +101,7 @@ main {
     text-align:  center;
     text-decoration: none;
     font-size: 14px;
-    margin: 10px 30px;
+    margin: 10px 30px; 
     cursor: pointer;
     align-items: center;
     justify-content: center;
