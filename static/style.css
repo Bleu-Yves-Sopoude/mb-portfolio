@@ -84,9 +84,9 @@ main {
   height: auto;
   padding: 110% 59px;
   margin: 5%;
-   }
+}
 
-  @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .menu-icon {
     display: block;
   }
@@ -96,11 +96,13 @@ main {
     background-color: #1a2236;
     border: none;
     color: white;
-    padding: 15px 100px; 
+    padding: 15px 100px;
+      
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    margin: 10px 30px; 
+    margin: 10px 30px;
+
     cursor: pointer;
     align-items: center;
     justify-content: center;
