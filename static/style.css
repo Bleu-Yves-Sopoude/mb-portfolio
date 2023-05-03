@@ -14,8 +14,7 @@
 .logo {
   background-image: url("/Users/mrblue/Documents/projects/mb-portfolio/static/logo.png");
   background-repeat: no-repeat;
-  padding: 0;
-  margin: 0;
+ 
   width: 200px;
   height: 80px;
 }
@@ -102,7 +101,7 @@ main {
     text-align:  center;
     text-decoration: none;
     font-size: 14px;
-    
+
     margin: 10px 30px; 
     cursor: pointer;
     align-items: center;
