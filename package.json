@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Bleu-Yves-Sopoude/mb-portfolio#readme",
   "devDependencies": {
-    "hint": "^7.1.8"
+    "hint": "^7.1.8",
+    "postcss-lit": "^1.1.0",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0"
   }
 }
