@@ -11,6 +11,16 @@
   justify-content: space-between;
 }
 
+.logo {
+  background-image: url("/Users/mrblue/Documents/projects/mb-portfolio/static/logo.png");
+  background-repeat: no-repeat;
+  
+  padding: 0px;
+  margin: 0px;
+  width: 200px;
+  height: 80px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -66,15 +76,17 @@ main {
 
 .container {
   display: flex;
+  background-image: url("/Users/mrblue/Documents/projects/mb-portfolio/static/image2.png");
+  background-repeat: no-repeat;
   justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  object-fit: contain;
-  background-size: cover;
-  height: auto;
-  padding: 60px 25px;
-  align-content: center ;
+  flex-direction: column;
   width: auto;
+  align-items: center;
+  object-fit: contain;
+  background-size: contain;
+  height: auto;
+  padding: 110% 59px;
+  margin: 5%;
   
 }
 
@@ -116,7 +128,7 @@ main {
     background-color: #1a2236;
     border: none;
     color: white;
-    padding: 15px 90px;
+    padding: 30px 90px;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
