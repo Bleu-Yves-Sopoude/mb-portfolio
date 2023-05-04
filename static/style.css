@@ -11,8 +11,6 @@
   justify-content: space-between;
 }
 
-
-
 .header {
   background-image: url("./logo.png");
   background-repeat: no-repeat;
@@ -35,8 +33,6 @@ main {
   top: 100%;
 }
 
-
-
 .bio-header {
   font-family: Playfair Display, sans-serif;
   font-size: 50px;
@@ -52,19 +48,15 @@ main {
   width: 100%;
   background-color: #fff;
   background-size: contain;
-  background-position: center;
-  padding: 90px 0px;
+  padding: 90 0;
   background-origin: border-box;
   border-bottom-left-radius: 0%;
   background-image: url("./image2.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 30rem;
-  letter-spacing: -0.01em;
-  
-  
+  letter-spacing: -0.01em;  
 }
-
 .bio-info {
   font-family: Poppins, sans-serif;
   font-size: 14px;
@@ -74,10 +66,7 @@ main {
   text-align: justify;
   padding: 17px 57px;
   justify-self: left;
-
 }
-
-
 
 @media screen and (min-width: 375px) {
   .menu-icon {
@@ -110,8 +99,6 @@ main {
   .bio {
     padding: 250px 260px;
   }
-  
-
   .link-text {
     display: flex;
     background-color: #1a2236;
