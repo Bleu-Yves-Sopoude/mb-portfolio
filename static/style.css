@@ -54,8 +54,7 @@ main {
   background-image: url("./image2.png");
   background-repeat: no-repeat;
   background-position: center 30rem;
-  letter-spacing: -0.01em;
-}
+  letter-spacing: -0.01em; }
 
 .bio-info {
   font-family: Poppins, sans-serif;
