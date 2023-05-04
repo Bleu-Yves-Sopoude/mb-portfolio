@@ -53,10 +53,11 @@ main {
   border-bottom-left-radius: 0%;
   background-image: url("./image2.png");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center 30rem;
-  letter-spacing: -0.01em;  
+  letter-spacing: -0.01em;
+
 }
+
 .bio-info {
   font-family: Poppins, sans-serif;
   font-size: 14px;
@@ -99,6 +100,7 @@ main {
   .bio {
     padding: 250px 260px;
   }
+
   .link-text {
     display: flex;
     background-color: #1a2236;
