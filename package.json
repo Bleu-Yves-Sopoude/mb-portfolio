@@ -1,0 +1,26 @@
+{
+  "name": "mb-portfolio",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bleu-Yves-Sopoude/mb-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bleu-Yves-Sopoude/mb-portfolio/issues"
+  },
+  "homepage": "https://github.com/Bleu-Yves-Sopoude/mb-portfolio#readme",
+  "devDependencies": {
+    "hint": "^2.0.0",
+    "postcss-lit": "^1.1.0",
+    "stylelint": "^15.6.1",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}
