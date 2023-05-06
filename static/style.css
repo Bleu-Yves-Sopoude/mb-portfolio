@@ -270,14 +270,14 @@ button:active {
 
 .lan {
   background: #1c528c;
-  background-image: url("./hast.png");
+  background-image: url("/Users/mrblue/Documents/projects/mb-portfolio/static/hast.png");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .fra {
   background-color: #e2505c;
-  background-image: url("./cuadrado.png");
+  background-image: url("./Users/mrblue/Documents/projects/mb-portfolio/static/cuadrado.png.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 33%;
@@ -285,7 +285,7 @@ button:active {
 
 .ski {
   background-color: #febf52;
-  background-image: url("./foco.png");
+  background-image: url("./Users/mrblue/Documents/projects/mb-portfolio/static/foco.png.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 35%;
