@@ -195,12 +195,7 @@ body {
   justify-content: center;
   flex-direction: row;
   margin-left: 5%;
-  
-  
-
-  
-  
-  border-color: #fff;
+border-color: #fff;
 }
 
 .description button:hover {
@@ -218,7 +213,6 @@ body {
   flex-direction: column;
   font-family: 'Playfair Display', Times, sans-serif;
   font-size: 22px;
-
 }
 
 .textAbout {
@@ -312,5 +306,3 @@ button:hover {
 button:active {
   border-width: 4px;
 }
-
-
