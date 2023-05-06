@@ -149,6 +149,22 @@ body {
   padding-bottom: 21px;
 }
 
+button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff;
+  border-color: black;
+  border-width: 1px;
+  color: #1a2236;
+}
+
+button:active {
+  border-width: 4px;
+}
+
 .description ul li:nth-child(1) {
   width: 69px;
   height: 20px;
@@ -289,20 +305,4 @@ h4 {
 
 .image-about {
   display: none;
-}
-
-button {
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #fff;
-  border-color: black;
-  border-width: 1px;
-  color: #1a2236;
-}
-
-button:active {
-  border-width: 4px;
 }
