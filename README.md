@@ -34,7 +34,7 @@
 > Tech stacks used on the project are.
 
 <details>
-  <summary>Client</summary>
+  
   <ul>
     <li><a href="#">html</a></li>
     <li><a href="#">css</a></li>
@@ -42,7 +42,7 @@
 </details>
 
 <details>
-  <summary>Mobile portfolio first 2 sections</summary>
+  <summary>Mobile portfolio middle section: About and work</summary>
   <ul>
     
   </ul>
@@ -99,6 +99,7 @@ To run the project, open index.html
     [Linters]
     [Html Css]
     [Flexbox]
+    [Grid]
 
   <p align="right"> (<a href="#readme-top"">back to top</a>) </p>
 
