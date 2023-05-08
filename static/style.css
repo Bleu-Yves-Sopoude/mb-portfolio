@@ -314,3 +314,9 @@ h4 {
   float: left;
   width: 10%;
 }
+
+ul.boxes li {
+  float: left;
+  list-style: none;
+  width: 7px;
+}
