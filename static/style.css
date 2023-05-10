@@ -537,7 +537,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 21px;
   color: #1a2236;
 }
@@ -547,9 +547,13 @@ h4 {
   width: 288px;
   height: 52px;
   background-color: #fff;
-  
   border-radius: 4px;
   margin-bottom: 29px;
+  border: 1px solid #dfdfe0;
+}
+
+form.contact-form input {
+  padding-left: 10px;
 }
 
 #email::placeholder {
@@ -558,7 +562,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   color: #1a2236;
 }
@@ -618,4 +622,36 @@ h4 {
   padding-top: 27.25px;
   margin-top: 0;
 }
+
+/* footer css */
+
+.footer{
+  background-color: #1a2236;
+}
+
+.get-cv{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.get-cv a {
+  text-decoration: none;
+  padding: 10px;
+  color: #92dcdc;
+  font-family: Poppins, serif;
+}
+
+
+.social-contents{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 35px;
+}
+
+ul.social-contents li {
+  list-style: none;
+}
+
 
