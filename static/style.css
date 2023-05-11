@@ -311,21 +311,6 @@ ul.social-contents li {
   color: #fff;
 }
 
-.languages li:nth-child(1) {
-  list-style-type: none;
-  padding-bottom: 21px;
-}
-
-.frameworks li:nth-child(1) {
-  list-style-type: none;
-  padding-bottom: 21px;
-}
-
-.skills li:nth-child(1) {
-  list-style-type: none;
-  padding-bottom: 21px;
-}
-
 button {
   transition-duration: 0.4s;
   cursor: pointer;
@@ -472,7 +457,6 @@ h4 {
   font-size: 20px;
   font-weight: 800;
   color: #fff;
-  
 }
 
 .inBox {
