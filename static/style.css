@@ -474,6 +474,7 @@ h4 {
   color: #fff;
 }
 
+
 .inBox {
   color: #fff;
   list-style-position: inside;
@@ -660,6 +661,5 @@ form.contact-form input {
   text-decoration: none;
   padding: 10px;
   color: #92dcdc;
-  font-family: Poppins, serif;
-
+  font-family: Poppins,serif;
 }
