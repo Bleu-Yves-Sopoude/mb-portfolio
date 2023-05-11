@@ -13,8 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 .navbar {
   width: 100%;
   overflow: auto;
@@ -32,8 +30,6 @@ body {
   width: 100%;
   height: 80px;
 }
-
-
 
 .form-section {
   background-color: #f9f9fa;
