@@ -180,6 +180,11 @@ main {
   padding-bottom: 35px;
 }
 
+ul.social-contents li {
+  list-style: none;
+}
+
+
 .work {
   width: 100%;
   display: grid;
@@ -659,8 +664,4 @@ form.contact-form input {
   padding: 10px;
   color: #92dcdc;
   font-family: Poppins, serif;
-}
-
-ul.social-contents li {
-  list-style: none;
 }
