@@ -87,7 +87,6 @@ body {
   color: #7d7c84;
 }
 
-
 main {
   overflow-y: auto;
 }
@@ -164,8 +163,6 @@ main {
     padding: 250px 260px;
   }
 
- 
-
   .link {
     flex-direction: row;
     margin-top: 30px;
@@ -174,13 +171,14 @@ main {
     align-items: center;
     gap: 12px;
     justify-content: center;
-  }
-
-
-  
+  }  
 }
 
-
+.social-contents{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 35px;
+}
 
 .work {
   width: 100%;
@@ -314,11 +312,7 @@ main {
   padding-bottom: 21px;
 }
 
-.social-contents{
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 35px;
-}
+
 
 .frameworks li:nth-child(1) {
   list-style-type: none;
