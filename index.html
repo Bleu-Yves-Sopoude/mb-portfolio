@@ -215,47 +215,50 @@
     </section>
 
 
-    <section class="contact">
-      <div class="contact-top-img"></div>
+    <section class="form-section">
+      <div class="form-background"></div>
+
+      <div class="get-started"> 
+
       <h2>Get started</h2>
-      <p>
-        I'm always interested in hearing about <br />
-        new projects, so if you'd like to chat <br />
-        please get in touch.
-      </p>
-      <form
-        class="contact-form"
-        action="#"
-        method="POST"
-      >
-        <label for="name">Your name</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Anastasiia"
-          maxlength="30"
-          required
-        />
-        <label for="email">Your email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="anastasiia@gm..."
-          accept="email"
-          required
-        />
-        <label for="message">Your message</label>
-        <textarea
-          id="message"
-          name="message"
-          placeholder="Enter your message here..."
-          maxlength="500"
-        ></textarea>
-        <button type="submit">Start collaboration</button>
-      </form>
-    </section>
+  <p>
+    I'm always interested in hearing about <br />
+    new projects, so if you'd like to chat <br />
+    please get in touch.
+  </p>
+
+</div>
+
+
+
+
+
+     <section class="form">
+          <form class="form-view"  action="https://formspree.io/f/mlekzyqz" method="POST">
+             <div class="input-group">
+              
+              <label>
+                  Your Name:
+              </label>
+              <input type="text" name="name" placeholder="Anastasiia" maxlength="30" required>
+             </div>
+             <div class="input-group">
+              <label>
+                  Your email:
+              </label>
+              <input type="email" name="email" placeholder="anastasiia@gm..." maxlength="30" required>
+             </div>
+              <div class="input-group">
+                  <label>
+                      Your message:
+                  </label>
+                  <textarea  name="message" rows="5" placeholder="Enter your message here..." maxlength="500" required></textarea>
+              </div>
+             <div class="input-group">
+              <button type="submit" class="input-form">Start collaboration</button>
+             </div>
+          </form>
+     </section>
     
 
     <section class="footer">
