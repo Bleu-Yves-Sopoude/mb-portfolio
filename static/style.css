@@ -647,9 +647,9 @@ form.contact-form input {
 
 .footer {
   background-color: #1a2236;
- }
+}
 
-.get-cv{
+.get-cv {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -660,5 +660,5 @@ form.contact-form input {
   text-decoration: none;
   padding: 10px;
   color: #92dcdc;
-  font-family: Poppins, serif; 
+  font-family: Poppins, serif;
 }
