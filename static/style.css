@@ -314,6 +314,12 @@ main {
   padding-bottom: 21px;
 }
 
+.social-contents{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 35px;
+}
+
 .frameworks li:nth-child(1) {
   list-style-type: none;
   padding-bottom: 21px;
@@ -481,7 +487,6 @@ h4 {
 .image-about {
   display: none;
 }
-
 
 .contact {
   display: flex;
@@ -662,15 +667,6 @@ form.contact-form input {
   font-family: Poppins, serif;
 }
 
-
-.social-contents{
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 35px;
-}
-
 ul.social-contents li {
   list-style: none;
 }
-
-
