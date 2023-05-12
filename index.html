@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MrBlue</title>
-	<link rel="stylesheet" href="static/style.css">
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-<body>
+  <head>
+    <title>MrBlue</title>
+    <link rel="stylesheet" href="static/style.css">
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+  </head>
+  <body>
+    <header class="header">
+      <div  class="logo"></div> 
+        <nav class="menu" id="menu">
+              
+          <div class="menu-close">
+              <a href="#" class="menu-close-icon"><img src="static/ic_menu.svg" alt="" srcset=""></a>
+          </div>
+          </nav>
+  
+      </header>
+  
+    <main>
+          <section class="bio">
+              
+              <h1 class="bio-header">
+                  Bleu Yves <br> Sopoude<br>
+              
+              </h1>
+  
+              <p class="bio-info">  
+              Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work. <br>  <br>
+  
+              If you like what you see and have a project you need coded, don’t hesitate to contact me.
+              </p>
+  
+        
+        <div class="link">
+                  <p><button class="link-text" >Start collaboration</button></p>	
+              </div>
+                      
+              <div class="image"></div>
+                       
+              
+          </section>
+  
+  
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<section class="work">
         <h2 class="projects">Projects</h2>
         <div class="proj-1">
@@ -162,6 +212,68 @@
                 <div class="Box image-about"></div>
             </div>
         </div>
+    </section>
+
+
+    <section class="contact">
+      <div class="contact-top-img"></div>
+      <h2>Get started</h2>
+      <p>
+        I'm always interested in hearing about <br />
+        new projects, so if you'd like to chat <br />
+        please get in touch.
+      </p>
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/xjvdloba"
+        method="POST"
+      >
+        <label for="name">Your name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Anastasiia"
+          maxlength="30"
+          required
+        />
+        <label for="email">Your email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="anastasiia@gm..."
+          accept="email"
+          required
+        />
+        <label for="message">Your message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Enter your message here..."
+          maxlength="500"
+          required
+        ></textarea>
+        <button type="submit">Start collaboration</button>
+      </form>
+    </section>
+    
+
+    <section class="footer">
+      <div class="get-cv">
+        <a href="#">Get My Resume</a>
+        <a href="#"><img src="static/ic_link_teal.png" alt=""></a>
+      </div>
+    <div>
+      <ul class="social-contents">
+        <li><a href="#"><img src="static/ic_stackoverflow.png" alt=""></a></li>
+        <li><a href="#"><img src="static/ic_github.png" alt=""></a></li>
+        <li><a href="#"><img src="static/ic_twitter.png" alt=""></a></li>
+        <li><a href="#"><img src="static/ic_linkedin.png" alt=""></a></li>
+        <li><a href="#"><img src="static/ic_angellist.png" alt=""></a></li>
+      </ul>
+    </div>
+
     </section>
     </body>
 
