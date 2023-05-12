@@ -376,11 +376,6 @@ button:active {
   border-color: #fff;
 }
 
-.description button:hover {
-  background-color: #fff;
-  color: #000;
-}
-
 .description button img {
   width: 25px;
   height: 11.35px;
@@ -404,6 +399,11 @@ button:active {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+}
+
+.description button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .contact-form button:active {
