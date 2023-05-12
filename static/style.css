@@ -63,12 +63,6 @@ body {
   color: #7d7c84;
 }
 
-
-
-
-
-
-
 .input-form {
   height: 50px;
   font-family: 'Poppins', serif;
@@ -333,32 +327,6 @@ button:active {
   border-width: 4px;
 }
 
-
-.contact-form button {
-  width: 288px;
-  height: 44px;
-  background-color: #1a2236;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-
-.contact-form button:active {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid black;
-}
-
-.contact-form button:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid black;
-}
-
 .description ul li:nth-child(1) {
   width: 69px;
   height: 20px;
@@ -423,6 +391,31 @@ button:active {
   flex-direction: column;
   font-family: 'Playfair Display', Times, sans-serif;
   font-size: 22px;
+}
+
+.contact-form button {
+  width: 288px;
+  height: 44px;
+  background-color: #1a2236;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.contact-form button:active {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.contact-form button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
 }
 
 .textAbout {
@@ -518,7 +511,7 @@ h4 {
   width: 288px;
   margin-top: 32px;
   margin-bottom: 0;
-  font-family: 'Playfair Display',Times, sans-serif;
+  font-family: 'Playfair Display', Times, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -576,7 +569,7 @@ h4 {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #1A2236;
+  color: #1a2236;
   padding-left: 16px;
   padding-top: 23px;
 }
@@ -599,7 +592,7 @@ h4 {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #1A2236;
+  color: #1a2236;
   padding-left: 16px;
   padding-top: 23px;
 }
