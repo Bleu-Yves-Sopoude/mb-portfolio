@@ -416,6 +416,12 @@ label {
     color: #1a2236;
   }
 
+  .menu ul li a:hover{
+    transform: scale(2);
+    color: #e2505c;
+    font-size: 17px;
+  }
+
   /* hello section */
 
   .hello {
