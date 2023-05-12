@@ -63,6 +63,12 @@ body {
   color: #7d7c84;
 }
 
+
+
+
+
+
+
 .input-form {
   height: 50px;
   font-family: 'Poppins', serif;
@@ -327,6 +333,32 @@ button:active {
   border-width: 4px;
 }
 
+
+.contact-form button {
+  width: 288px;
+  height: 44px;
+  background-color: #1a2236;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.contact-form button:active {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid black;
+}
+
+.contact-form button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+
 .description ul li:nth-child(1) {
   width: 69px;
   height: 20px;
@@ -468,6 +500,7 @@ h4 {
 }
 
 .contact {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -476,15 +509,16 @@ h4 {
 }
 
 .contact-top-img {
-  width: 327px;
+  width: 100%;
   height: 74px;
-  background: url('images/Shape.png') no-repeat, url('images/Shape-2.png') no-repeat 10% 12%;
+  background: url('./Shape.png') no-repeat, url('./Shape-2.png') no-repeat 10% 12%;
 }
 
 .contact h2 {
+  width: 288px;
   margin-top: 32px;
   margin-bottom: 0;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display',Times, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -493,6 +527,7 @@ h4 {
 }
 
 .contact p {
+  width: 288px;
   margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -506,8 +541,7 @@ h4 {
 .contact-form {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  margin-left: 18px;
+  align-items: flex-start;
 }
 
 .contact-form > label {
@@ -540,9 +574,11 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 21px;
-  color: #1a2236;
+  color: #1A2236;
+  padding-left: 16px;
+  padding-top: 23px;
 }
 
 #email {
@@ -550,13 +586,9 @@ h4 {
   width: 288px;
   height: 52px;
   background-color: #fff;
+  border: 1px solid #1a2236;
   border-radius: 4px;
   margin-bottom: 29px;
-  border: 1px solid #dfdfe0;
-}
-
-form.contact-form input {
-  padding-left: 10px;
 }
 
 #email::placeholder {
@@ -565,9 +597,11 @@ form.contact-form input {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 24px;
-  color: #1a2236;
+  color: #1A2236;
+  padding-left: 16px;
+  padding-top: 23px;
 }
 
 #message {
@@ -589,6 +623,8 @@ form.contact-form input {
   font-size: 14px;
   line-height: 21px;
   color: #7d7c84;
+  padding-left: 16px;
+  padding-top: 14px;
 }
 
 .links {
