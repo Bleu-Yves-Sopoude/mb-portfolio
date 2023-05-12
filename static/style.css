@@ -414,8 +414,6 @@ button:active {
   align-content: center;
   grid-auto-rows: 19.2rem;
   grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
-
-  /* border: #1a2236 dotted 1px; */
 }
 
 .Box {
