@@ -33,9 +33,6 @@ body {
   margin: 0;
   margin-top: 50px;
   color: #1a2236;
-}
-
-.name {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -51,12 +48,6 @@ body {
     width: 100%;
   }
 }
-
-
-
-
-
-
 
 .headline {
   width: 90%;
@@ -402,7 +393,6 @@ label {
 }
 
 @media only screen and (min-width: 768px) {
-  /* Header change nav */
 
   #toolbar {
     display: none;
@@ -439,13 +429,11 @@ label {
     color: #1a2236;
   }
 
-  .menu ul li a:hover{
+  .menu ul li a:hover {
     transform: scale(2);
     color: #e2505c;
     font-size: 17px;
   }
-
-  /* hello section */
 
   .hello {
     display: grid;
@@ -527,8 +515,6 @@ label {
     font-size: 25px;
   }
 
-
- 
   .gallery {
     display: grid;
     grid-template-columns: 1.75fr 1.1fr 0.58fr 1.75fr;
@@ -616,8 +602,7 @@ label {
 
   .cardx {
     grid-column: 4;
-    grid-row: 2;
-    
+    grid-row: 2; 
   }
 
   .cardx img {
@@ -684,18 +669,6 @@ label {
     visibility: visible;
     opacity: 100%;
   }
-
-
-
-  
-
-
-
-
-
-
-
-
 
   /* form responsive */
   .formulary {
