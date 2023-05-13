@@ -393,7 +393,6 @@ label {
 }
 
 @media only screen and (min-width: 768px) {
-
   #toolbar {
     display: none;
   }
@@ -602,7 +601,8 @@ label {
 
   .cardx {
     grid-column: 4;
-    grid-row: 2; 
+    grid-row: 2;
+  
   }
 
   .cardx img {
