@@ -509,6 +509,14 @@ label {
     margin: 17vh auto;
   }
 
+  .pData {
+    position: absolute;
+    visibility: visible;
+    zoom: 0.9;
+    opacity: 0%;
+  
+  }
+
   .card .pData h3 {
     font-weight: 700;
   }
@@ -572,7 +580,7 @@ label {
 
   .card2 img {
     width: 100%;
-    height: 79%;
+    height: 98%;
     object-fit: cover;
     object-position: center;
   }
@@ -671,6 +679,56 @@ label {
   .card:hover .pData {
     visibility: visible;
     opacity: 100%;
+  }
+
+  /* about responsive */
+
+  .about {
+    max-width: 1280px;
+    margin: 0 auto;
+    zoom: 70%;
+  }
+
+  h2 {
+    font-size: 5em;
+  }
+
+  .about-cont {
+    margin: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-head {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    width: 50%;
+  }
+
+  .textAbout {
+    height: fit-content;
+  }
+
+  .boxL {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 50%;
+    width: fit-content;
+  }
+
+  .image-about {
+    display: block;
+    background-image: url("./images/lfs/about/image_dots_with_teal.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .Box {
+    margin: 0;
   }
 
   /* form responsive */
