@@ -12,27 +12,29 @@
 <body>
     <header>
         <nav id="toolbar">
-            <a href="#"><img src="images/ic_menu.svg" alt="Menu"></a> 
+            <a href="#"><img src="images/ic_menu.svg" alt="Menu" id="mobile-nav"></a> 
         </nav>
     </header>
 
      <!-- descktop version -->   
 
     <header class="desk">
+        <div id="top-img" class="img-mobile-container"></div>
+        <div id="bottom-img" class="img-mobile-container"></div>
         <nav class="menu">
           <ul>
-            <li><a href="#">Hello</a></li>
+            <li><a href="#hello">Hello</a></li>
             
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
 
 
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
     </header>
 
-    <section class="hello">
+    <section class="hello" id="hello">
         <div class="hello-text">
           <header>
             <h1 class="name">Bleu Yves Sopoude</h1>
@@ -49,7 +51,7 @@
 
 <!-- project section -->
 <!-- <img src="./images/Union (1).png" alt=""> -->
-    <section class="projects">
+    <section class="projects" id="projects">
         
         <div class="gallery">
 <h2 class="project-title card1">Projects</h2>
@@ -172,5 +174,8 @@
     </footer>
 
 </section> 
+
+
+<script src="index.js"></script>
 </body>
 </html>
