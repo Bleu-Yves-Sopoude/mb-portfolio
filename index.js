@@ -70,14 +70,6 @@ cancela.forEach((a) => {
   });
 });
 
-
-
-
-
-
-
-
-
 const projectInfo = [
   {
     id: 1,
