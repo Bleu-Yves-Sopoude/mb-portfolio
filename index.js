@@ -70,14 +70,6 @@ cancela.forEach((a) => {
   });
 });
 
-
-
-
-
-
-
-
-
 const projectInfo = [
   {
     id: 1,
@@ -157,7 +149,7 @@ const projectInfo = [
   },
 ];
 
-// project seccion dynamic Html
+// project secion dynamic Html
 
 const showModal = (projectInfo) => {
   const myModal = document.getElementById('myMOdal');
@@ -187,6 +179,12 @@ const showModal = (projectInfo) => {
 </div>`;
   myModal.innerHTML = modalBody;
 };
+
+
+
+
+
+
 
 const gall = document.querySelector('.gallery');
 
