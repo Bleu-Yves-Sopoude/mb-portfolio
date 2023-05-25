@@ -180,12 +180,6 @@ const showModal = (projectInfo) => {
   myModal.innerHTML = modalBody;
 };
 
-
-
-
-
-
-
 const gall = document.querySelector('.gallery');
 
 const closeModal = () => {
