@@ -1,8 +1,5 @@
-// mobile menu
-
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
-
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
@@ -73,7 +70,13 @@ cancela.forEach((a) => {
   });
 });
 
-// array for projects information
+
+
+
+
+
+
+
 
 const projectInfo = [
   {
@@ -156,9 +159,41 @@ const projectInfo = [
 
 // project seccion dynamic Html
 
+const showModal = (projectInfo) => {
+  const myModal = document.getElementById('myMOdal');
+  myModal.style.display = 'flex';
+  const modalBody = `<div class="modal-content">
+  <button id="closemodalX" class="close-modal close">&times</button>
+  <h3 class="project-title-modal">${projectInfo.name}</h3>
+  <ul class="card-tech-modal">
+      <li>${projectInfo.technologies[0]}</li>
+      <li>${projectInfo.technologies[1]}</li>
+      <li>${projectInfo.technologies[2]}</li>
+  </ul>
+  <img class="project-image modal-img" src="${projectInfo.image}" alt="${projectInfo.alt}">
+  <p class="project-description">${projectInfo.description}</p>
+  <div class="btns-modal">
+      <button class="btn-modal seeLive">See live
+          <img class="iconModal" src="./images/Union (8).png">
+      </button>
+      <button class="btn-modal seeSource">See source
+          <img class="iconModal" src="./images/redes sociales/Vector (8).png">
+      </button>
+  </div>
+  <div class="next-prev-proj">
+      <button class="prev-btn"> &larr; Previous project</button>
+      <button class="prev-btn">Next Project &rarr;</button>
+  </div>
+</div>`;
+  myModal.innerHTML = modalBody;
+};
+
 const gall = document.querySelector('.gallery');
-let cardContainer = `<h2 class="project-title card1">Projects</h2>
-  <div class="caja1-1 card" ></div>`;
+
+const closeModal = () => {
+  const myModal = document.getElementById('myMOdal');
+  myModal.style.display = 'none';
+};
 
 projectInfo.forEach((project, index) => {
   const projectId = project.id;
@@ -166,8 +201,11 @@ projectInfo.forEach((project, index) => {
   const projectImage = project.image;
   const projectTech = project.technologies;
   const projectImgAlt = project.alt;
-  cardContainer += `<article class="card  card${index + 2}">
-<img class="imgp" src="${projectImage}" alt="${projectImgAlt}" width="100%">
+
+  const soloArticle = document.createElement('article');
+  soloArticle.classList.add('card', `card${index + 2}`);
+
+  const cardContainer = `<img class="imgp" src="${projectImage}" alt="${projectImgAlt}" width="100%">
 <div class="pData">
     <h3>${projectName}</h3>
     <ul class="projectUl">
@@ -179,25 +217,33 @@ projectInfo.forEach((project, index) => {
         See this project &nbsp →
     </button>
 </div>
-</article>
-<div class="card card-back${index + 2}"></div>`;
+</article>`;
+  soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
+  gall.appendChild(soloArticle);
+  const button = document.getElementById(`btn${projectId}`);
+  button.addEventListener('click', () => {
+    showModal(project);
+    const closemodalX = document.getElementById('closemodalX');
+    closemodalX.addEventListener('click', () => {
+      closeModal();
+    });
+  });
 });
-gall.innerHTML = cardContainer;
 
 // form validation
 
 const errorMessage = document.querySelector('.error-message');
 const form = document.getElementById('contact');
-const email = document.getElementById('email');
+const email = document.getElementById('mail');
 const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
 
 form.addEventListener('submit', (e) => {
   if (!emailRegex.test(email.value)) {
     e.preventDefault();
     errorMessage.style.display = 'block';
-    email.style.border = '#dd5353 2px solid';
   }
 });
+
 // local storage
 
 let localData = {
