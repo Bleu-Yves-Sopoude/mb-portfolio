@@ -676,100 +676,100 @@ label {
   /* about section */
 
   .about {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .textAbout {
-      width: 90%;
-      height: fit-content;
-      font-family: 'Poppins', sans-serif;
-      font-size: 14px;
-      line-height: 21px;
-      color: #1a2236;
-      padding: 16px;
-      padding-bottom: 10px;
-      margin-top: 0;
-      padding-top: 0;
+    width: 90%;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+    padding: 16px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .boxL {
-      padding: 16px;
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      flex-wrap: wrap;
-      align-content: center;
-      grid-auto-rows: 19.2rem;
-      grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    padding: 16px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    grid-auto-rows: 19.2rem;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
 
   /* border: #1a2236 dotted 1px; */
   }
 
   .Box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 0;
-      padding-left: 50px;
-      padding-right: 50px;
-      height: 289px;
-      width: 289px;
-      margin: 9px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 289px;
+    width: 289px;
+    margin: 9px auto;
   }
 
   .lan {
-      background: #1c528c;
-      background-image: url("./images/lfs/hast.png");
-      background-repeat: no-repeat;
-      background-position: right bottom;
+    background: #1c528c;
+    background-image: url("./images/lfs/hast.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 
   .fra {
-      background-color: #e2505c;
-      background-image: url("images/lfs/cuadrado.png");
-      background-repeat: no-repeat;
-      background-position: right bottom;
-      background-size: 33%;
+    background-color: #e2505c;
+    background-image: url("images/lfs/cuadrado.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 33%;
   }
 
   .ski {
-      background-color: #febf52;
-      background-image: url("images/lfs/foco.png");
-      background-repeat: no-repeat;
-      background-position: right bottom;
-      background-size: 35%;
+    background-color: #febf52;
+    background-image: url("images/lfs/foco.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 35%;
   }
 
   h4 {
-      font-size: 20px;
-      font-weight: 800;
-      color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
   }
 
   .inBox {
-      color: #fff;
-      list-style-position: inside;
-      justify-self: center;
+    color: #fff;
+    list-style-position: inside;
+    justify-self: center;
   }
 
   .image-about {
-      display: none;
+    display: none;
   }
 
   button {
-      transition-duration: 0.4s;
-      cursor: pointer;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
 
   button:hover {
-      background: #fff;
-      border-color: black;
-      border-width: 1px;
-      color: #1a2236;
+    background: #fff;
+    border-color: black;
+    border-width: 1px;
+    color: #1a2236;
   }
 
   button:active {
-      border-width: 4px;
+    border-width: 4px;
   }
 
   /* form responsive */
