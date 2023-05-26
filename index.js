@@ -77,7 +77,7 @@ cancela.forEach((a) => {
 
 const projectInfo = [
   {
-    id: 1,
+    id: 2,
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/project1.png',
@@ -91,8 +91,8 @@ const projectInfo = [
     source: '#',
   },
   {
-    id: 2,
-    name: 'Project name goes here',
+    id: 1,
+    name: 'Project2 name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/project2.png',
     alt: 'laptop',
