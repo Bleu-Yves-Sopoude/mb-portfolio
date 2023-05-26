@@ -1,5 +1,8 @@
 <a name="readme-top"></a>
 
+
+
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -7,140 +10,162 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)  
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- 🔭 [Future Feature](#futurefeatures)
-- 🤝 [Contributing](#contributing)
-- ⭐️ [Show your support](#showyoursupport)
-- 🙏 [Acknowledgements](#acknowledgements)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portofolio] <a name="about-project"></a>
+# 📖 Felipe Portfolio <a name="about-project"></a>
 
-> This project is the biginin of my mobile portfolio.
+> Describe your project in 1 or 2 sentences.
 
-**[portofolio]** is my personal portofolio.
+**Felipe Portfolio** is a responsive webpage who can open in mobile and desktop too.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Tech stacks used on the project are.
+HTML5  CSS3 JS
 
-<details>
-  
-  <ul>
-    <li><a href="#">html</a></li>
-    <li><a href="#">css</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Mobile portfolio middle section: About and work</summary>
-  <ul>
-    
-  </ul>
-</details>
+<!-- Features -->
 
+### Key Features <a name="key-features"></a>
+
+
+- **LOVE**
+- **PASSION**
+- **CODING**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://bleu-yves-sopoude.github.io/#)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+
 To get a local copy up and running, follow these steps.
+Create a GitHub acount an clone this repository
 
 ### Prerequisites
 
 In order to run this project you need:
 
+a Browser who support Html5 and Css3
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 
-### Install
+  cd my-folder
+  git clone https://github.com/Bleu-Yves-Sopoude/mb-portfolio.git
 
-Install this project with:
-npm i
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Usage
+<!-- AUTHORS -->
 
-To run the project, open index.html
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Bleu Yves Sopoude**
+
+- GitHub: [@Bleu-Yves-Sopoude](https://github.com/Bleu-Yves-Sopoude/mb-portfolio.git)
+
+👤 **Chaw Ma Ma Win**
+
+- GitHub: [@Chaw-Ma-Ma-Win](https://github.com/Chaw-Ma-Ma-Win)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+<!-- FUTURE FEATURES -->
 
-👤 **Author**
+## 🔭 Future Features <a name="future-features"></a>
 
-- GitHub: [@Bleu-Yves-Sopoude](https://github.com/Bleu-Yves-Sopoude)
-- Linkedin: [@Bleu Yves Sopoude](https://www.linkedin.com/in/bleu-yves/)
+> Describe 1 - 3 features you will add to the project.
 
+- [ ] **projects**
+- [ ] **about section**
+- [ ] **formulary**
 
-## 🔭 Future Features<a name="future features"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-    Describe 1 - 3 features you will add to the project.
-
-    [Linters]
-    [Html Css]
-    [Flexbox]
-    [Grid]
-
-  <p align="right"> (<a href="#readme-top"">back to top</a>) </p>
-
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check my repository in GitHub.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 
 
 
-<p align="right">(<a href="#readme-top"">back to top</a>)</p>
+If you like this project bring me a star in GitHub
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank to my code partners who inspared me to do a better code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 
-## ⭐️ Show your support <a name="show your support"></a>
-
-   
-
-If you like this project support it by giving one star
-
-<p align="right">(<a href="#readme-top"">back to top</a>)</p>
-
-
-
-## 🙏 Acknowledgments <a name="acknowledgments"></a>
-
-  Give credit to everyone who inspired your codebase.
-
-I would like to thank my Microverse for this experience
-
-<p align="right">(<a href="#readme-top"">back to top</a>)</p>
-
-
-
-
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-Hello-Microverse
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
