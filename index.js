@@ -1,4 +1,3 @@
-
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
 const deskElement = document.querySelector('.desk');
@@ -7,8 +6,6 @@ const topImgElement = document.getElementById('top-img');
 const bottomImgElement = document.getElementById('bottom-img');
 
 // mobile menu
-
-
 
 let controller = false;
 menuContainer.addEventListener('click', () => {
