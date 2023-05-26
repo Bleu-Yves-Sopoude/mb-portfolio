@@ -1,21 +1,18 @@
-<<<<<<< HEAD
+
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
 const deskElement = document.querySelector('.desk');
 const deskListElement = document.querySelector('.desk ul');
 const topImgElement = document.getElementById('top-img');
 const bottomImgElement = document.getElementById('bottom-img');
-=======
+
 // mobile menu
 
-const menuContainer = document.getElementById('toolbar');
-const iconImage = menuContainer.querySelector('img');
->>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
+
 
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
-<<<<<<< HEAD
     deskElement.style.display = 'flex';
     deskElement.style.background = '#fff';
     deskElement.style.position = 'absolute';
@@ -46,39 +43,6 @@ menuContainer.addEventListener('click', () => {
     deskListElement.style.display = 'flex';
     deskListElement.style.flexDirection = 'column';
     deskListElement.style.alignItems = 'center';
-=======
-    document.querySelector('.desk').style.display = 'flex';
-    document.querySelector('.desk').style.background = '#fff';
-    document.querySelector('.desk').style.position = 'absolute';
-    document.querySelector('.desk').style.width = '100%';
-    document.querySelector('.desk').style.height = '100vh';
-    document.querySelector('.desk').style.top = '0px';
-    document.querySelector('.desk').style.position = 'fixed';
-
-    document.getElementById('toolbar').style.zIndex = '2';
-
-    document.getElementById('top-img').style.background = 'url("images/menu_mobile/image_geometry_menu_1.jpg")';
-    document.getElementById('top-img').style.position = 'absolute';
-    document.getElementById('top-img').style.width = '70vw';
-    document.getElementById('top-img').style.height = '30vh';
-    document.getElementById('top-img').style.top = '0px';
-    document.getElementById('top-img').style.left = '0';
-    document.getElementById('top-img').style.backgroundSize = '100%';
-    document.getElementById('top-img').style.backgroundRepeat = 'no-repeat';
-
-    document.getElementById('bottom-img').style.background = 'url("images/menu_mobile/image_geometry_menu_2.jpg")';
-    document.getElementById('bottom-img').style.position = 'absolute';
-    document.getElementById('bottom-img').style.width = '100vw';
-    document.getElementById('bottom-img').style.height = '220px';
-    document.getElementById('bottom-img').style.bottom = '0';
-    document.getElementById('bottom-img').style.backgroundSize = '100%';
-    document.getElementById('bottom-img').style.backgroundRepeat = 'no-repeat';
-
-    document.querySelector('.desk ul').style.listStyle = 'none';
-    document.querySelector('.desk ul').style.display = 'flex';
-    document.querySelector('.desk ul').style.flexDirection = 'column';
-    document.querySelector('.desk ul').style.alignItems = 'center';
->>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
     document.querySelectorAll('.menu a').forEach((item) => {
       item.style.textDecoration = 'none';
       item.style.color = 'black';
@@ -92,14 +56,9 @@ menuContainer.addEventListener('click', () => {
       item.style.marginBottom = '30px';
     });
 
-<<<<<<< HEAD
     deskElement.style.paddingTop = '50%';
     deskElement.style.justifyContent = 'center';
 
-=======
-    document.querySelector('.desk').style.paddingTop = '50%';
-    document.querySelector('.desk').style.justifyContent = 'center';
->>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
     iconImage.src = 'images/cancel.jpg';
 
     controller = true;
@@ -120,8 +79,6 @@ cancela.forEach((a) => {
     iconImage.src = 'images/ic_menu.svg';
   });
 });
-<<<<<<< HEAD
-=======
 
 // array for projects information
 
@@ -321,4 +278,3 @@ if (JSON.parse(localStorage.getItem('name')) !== null) {
   emailInput.setAttribute('value', localData.email);
   messageInput.value = localData.message;
 }
->>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
