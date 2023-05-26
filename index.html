@@ -12,27 +12,29 @@
 <body>
     <header>
         <nav id="toolbar">
-            <a href="#"><img src="images/ic_menu.svg" alt="Menu"></a> 
+            <a href="#"><img src="images/ic_menu.svg" alt="Menu" id="mobile-nav"></a> 
         </nav>
     </header>
 
      <!-- descktop version -->   
 
     <header class="desk">
+        <div id="top-img" class="img-mobile-container"></div>
+        <div id="bottom-img" class="img-mobile-container"></div>
         <nav class="menu">
           <ul>
-            <li><a href="#">Hello</a></li>
+            <li><a href="#hello">Hello</a></li>
             
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
 
 
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
     </header>
 
-    <section class="hello">
+    <section class="hello" id="hello">
         <div class="hello-text">
           <header>
             <h1 class="name">Bleu Yves Sopoude</h1>
@@ -47,67 +49,22 @@
         <div class="bigimage"></div>
     </section>
 
-<!-- project section -->
-<!-- <img src="./images/Union (1).png" alt=""> -->
-    <section class="projects">
+
+<section class="projects" id="projects">
         
-        <div class="gallery">
+    <div class="gallery" id="gallery">
 <h2 class="project-title card1">Projects</h2>
 
-            <div class="caja1-1" card></div> 
-            <article class="card card2">
-                <img class="imgp" src="images/project1.png" alt="project1" width="320px">
-                
-                <div class="pData">
-                    <h3>Project name goes here</h3>
-                    <ul class="projectUl">
-                        <li class="projectLi">HTML/CSS</li>
-                        <li class="projectLi">Ruby on Rails</li>
-                        <li class="projectLi">Java script</li>
-                    </ul>
-                    <button class="see">
-                        See this project &nbsp →
-                    </button>
-                </div>
+        <div class="caja1-1" card></div> 
+        
+        </div>
+  </section>
 
-            </article>
-            
-            <article class="card card3">
-                <img src="images/project2.png" alt="project2" width="100%">
+  <!-- Modal popup -->
 
-            </article>
-            <div class="card card4"></div>
-            <article class="card cardx">
-                <img src="images/project6.png" alt="project3" width="100%">
-                <div class="pData">
-                    <h3>Project name goes here</h3>
-                    <ul class="projectUl">
-                        <li class="projectLi">HTML/CSS</li>
-                        <li class="projectLi">Ruby on Rails</li>
-                        <li class="projectLi">Java script</li>
-                    </ul>
-                    <button class="see">
-                        See this project &nbsp →
-                    </button>
-                </div>
-            </article>
-            
-            <article class="card card5">
-                <img src="images/project4.png" alt="project4" width="100%">
-                
-            </article>
-            <article class="card card6">
-                <img src="images/project3.png" alt="project5" width="100%">
-                
-            </article>
-            <div class="card card7"></div>
-            <div class="card card8"></div>
-            <article class="card card9">
-                <img src="images/project5.png" alt="project6" width="100%">
-                
-            </article>
-            </div>
-    </section>
+  <section class="modal-container modal" id="myMOdal">
+        
+  </section>
     
        <!-- form section  -->
 
@@ -148,7 +105,7 @@
         </div>
     </section>
 
-        <!--footer section-->
+        <!--footer secction-->
 
     <footer class="contenfoo">
         <div>
