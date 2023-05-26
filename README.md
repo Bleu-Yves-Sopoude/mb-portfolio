@@ -33,7 +33,11 @@
 
 > Describe your project in 1 or 2 sentences.
 
+<<<<<<< HEAD
 **Felipe Portfolio** is a responsive webpage who can open in mobile and desktop too.
+=======
+**Bleu Yves Sopoude Portfolio** is a responsive webpage who can open in mobile and desktop too with differents section such as, nav bar, portfolio, projects about section and a working form.
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,14 +60,26 @@ HTML5  CSS3 JS
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+<<<<<<< HEAD
 
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://bleu-yves-sopoude.github.io/#)
 
+=======
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://bleu-yves-sopoude.github.io/)
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<<<<<<< HEAD
+=======
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -106,6 +122,51 @@ Clone this repository to your desired folder:
 
 - GitHub: [@Bleu-Yves-Sopoude](https://github.com/Bleu-Yves-Sopoude/mb-portfolio.git)
 
+<<<<<<< HEAD
+👤 **Chaw Ma Ma Win**
+
+- GitHub: [@Chaw-Ma-Ma-Win](https://github.com/Chaw-Ma-Ma-Win)
+=======
+
+- Linkedin: [@Bleu-Yves-Sopoude](https://www.linkedin.com/in/bleu-yves/)
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
+
+- Linkedin: [@Bleu-Yves-Sopoude](https://twitter.com/bleuYves)
+
+<<<<<<< HEAD
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **projects**
+- [ ] **about section**
+- [ ] **formulary**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check my repository in GitHub.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+
+If you like this project bring me a star in GitHub
+=======
 👤 **Chaw Ma Ma Win**
 
 - GitHub: [@Chaw-Ma-Ma-Win](https://github.com/Chaw-Ma-Ma-Win)
@@ -139,13 +200,11 @@ Feel free to check my repository in GitHub.
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-
-
-If you like this project bring me a star in GitHub
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<<<<<<< HEAD
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
@@ -157,8 +216,29 @@ I would like to thank to my code partners who inspared me to do a better code.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
+=======
+
+If you like this project bring me a star in GitHub
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
+
+I would like to thank to my code partners who inspared me to do a better code.
+
+<<<<<<< HEAD
+=======
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 
+>>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
