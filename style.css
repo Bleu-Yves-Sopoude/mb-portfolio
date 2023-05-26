@@ -858,7 +858,6 @@ label {
     opacity: 100%;
   }
 
-<<<<<<< HEAD
   /* about section */
 
   .about {
@@ -956,113 +955,6 @@ label {
 
   button:active {
     border-width: 4px;
-=======
-  /* Modal POPUP */
-
-  .modal-container {
-    border: 40px solid #1a2236;
-    display: none;
-    flex-direction: row;
-    gap: 10px;
-    background-color: white;
-    position: fixed;
-    top: 50%;
-    transform: translate(0%, -50%);
-    visibility: visible;
-    box-sizing: border-box;
-    max-height: 100%;
-    max-width: 60%;
-    margin-left: 25%;
-  }
-
-  .modal-content {
-    padding: 40px;
-  }
-
-  .close-modal {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .project-title-modal {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.5;
-    padding: 0;
-  }
-
-  .project-description {
-    display: flex;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    color: #1a2236;
-    padding-left: 20%;
-    padding-right: 20%;
-    align-self: center;
-  }
-
-  .card-tech-modal {
-    padding: 0;
-  }
-
-  .card-tech-modal li {
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 80%;
-    gap: 10px;
-    padding: 10px 15px 10px 15px;
-  }
-
-  .modal-img {
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .btns-modal {
-    font-size: 70px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .btn-modal {
-    margin-top: 100px;
-    margin-right: 20px;
-    cursor: pointer;
-    text-align: left;
-    padding-left: 25px;
-  }
-
-  .btn-modal:hover {
-    background-color: #1a2236;
-    color: white;
-  }
-
-  .next-prev-proj {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 220px;
-  }
-
-  .prev-btn {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    color: #1a2236;
-    border: none;
-    background: none;
-    cursor: pointer;
->>>>>>> 638b9d2fc3cd273f0356428198e9e8f550265866
   }
 
   /* form responsive */
