@@ -428,7 +428,7 @@ label {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .error-message {
     display: none;
     color: #e2505c;
@@ -766,7 +766,7 @@ label {
     font-size: 16px;
     line-height: 48px;
     border: 1px solid #e0e0e0;
-   padding: 0 16px;
+    padding: 0 16px;
   }
 
   .form-name-message {
