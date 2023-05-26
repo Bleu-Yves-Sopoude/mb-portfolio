@@ -163,7 +163,8 @@ I would like to thank to my code partners who inspared me to do a better code.
 
 ## 📝 License <a name="license"></a>
 
-This project is MIT licensed.
+This project is [MIT](./LICENSE) licensed.
+
 
 
 
