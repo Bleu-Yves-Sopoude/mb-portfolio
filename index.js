@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 // mobile menu
 
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
 
-=======
-const menuContainer = document.getElementById('toolbar');
-const iconImage = menuContainer.querySelector('img');
->>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
@@ -78,11 +73,8 @@ cancela.forEach((a) => {
   });
 });
 
-<<<<<<< HEAD
 // array for projects information
 
-=======
->>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
 const projectInfo = [
   {
     id: 1,
