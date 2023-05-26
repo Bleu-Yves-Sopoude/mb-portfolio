@@ -26,7 +26,6 @@ menuContainer.addEventListener('click', () => {
     topImgElement.style.left = '0';
     topImgElement.style.backgroundSize = '100%';
     topImgElement.style.backgroundRepeat = 'no-repeat';
-    
     bottomImgElement.style.background = 'url("images/menu_mobile/image_geometry_menu_2.jpg")';
     bottomImgElement.style.position = 'absolute';
     bottomImgElement.style.width = '100vw';
@@ -39,7 +38,6 @@ menuContainer.addEventListener('click', () => {
     deskListElement.style.display = 'flex';
     deskListElement.style.flexDirection = 'column';
     deskListElement.style.alignItems = 'center';
-    
     document.querySelectorAll('.menu a').forEach((item) => {
       item.style.textDecoration = 'none';
       item.style.color = 'black';
