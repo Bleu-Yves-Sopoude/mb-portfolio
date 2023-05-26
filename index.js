@@ -1,7 +1,5 @@
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
-
-
 const deskElement = document.querySelector('.desk');
 const deskListElement = document.querySelector('.desk ul');
 const topImgElement = document.getElementById('top-img');
@@ -38,7 +36,7 @@ menuContainer.addEventListener('click', () => {
     bottomImgElement.style.bottom = '0';
     bottomImgElement.style.backgroundSize = '100%';
     bottomImgElement.style.backgroundRepeat = 'no-repeat';
- 
+
     deskListElement.style.listStyle = 'none';
     deskListElement.style.display = 'flex';
     deskListElement.style.flexDirection = 'column';
