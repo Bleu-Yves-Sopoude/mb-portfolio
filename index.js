@@ -1,5 +1,8 @@
+// mobile menu
+
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
+
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
@@ -69,6 +72,8 @@ cancela.forEach((a) => {
     iconImage.src = 'images/ic_menu.svg';
   });
 });
+
+// array for projects information
 
 const projectInfo = [
   {
@@ -210,6 +215,7 @@ projectInfo.forEach((project, index) => {
     </button>
 </div>
 </article>`;
+
   soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
   gall.appendChild(soloArticle);
   const button = document.getElementById(`btn${projectId}`);
@@ -226,16 +232,16 @@ projectInfo.forEach((project, index) => {
 
 const errorMessage = document.querySelector('.error-message');
 const form = document.getElementById('contact');
-const email = document.getElementById('mail');
+const email = document.getElementById('email');
 const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
 
 form.addEventListener('submit', (e) => {
   if (!emailRegex.test(email.value)) {
     e.preventDefault();
     errorMessage.style.display = 'block';
+    email.style.border = '#dd5353 2px solid';
   }
 });
-
 // local storage
 
 let localData = {
