@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 // mobile menu
 
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
 
+=======
+const menuContainer = document.getElementById('toolbar');
+const iconImage = menuContainer.querySelector('img');
+>>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
@@ -73,8 +78,11 @@ cancela.forEach((a) => {
   });
 });
 
+<<<<<<< HEAD
 // array for projects information
 
+=======
+>>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
 const projectInfo = [
   {
     id: 1,
@@ -231,13 +239,18 @@ projectInfo.forEach((project, index) => {
 
 const errorMessage = document.querySelector('.error-message');
 const form = document.getElementById('contact');
+<<<<<<< HEAD
 const email = document.getElementById('email');
+=======
+const email = document.getElementById('mail');
+>>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
 const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
 
 form.addEventListener('submit', (e) => {
   if (!emailRegex.test(email.value)) {
     e.preventDefault();
     errorMessage.style.display = 'block';
+<<<<<<< HEAD
     email.style.border = '#dd5353 2px solid';
   }
 });
@@ -270,3 +283,7 @@ if (JSON.parse(localStorage.getItem('name')) !== null) {
   emailInput.setAttribute('value', localData.email);
   messageInput.value = localData.message;
 }
+=======
+  }
+});
+>>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
