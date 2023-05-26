@@ -154,7 +154,7 @@ const projectInfo = [
   },
 ];
 
-// project seccion dynamic Html
+// project secion dynamic Html
 
 const showModal = (projectInfo) => {
   const myModal = document.getElementById('myMOdal');
