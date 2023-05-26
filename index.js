@@ -149,11 +149,7 @@ const projectInfo = [
   },
 ];
 
-<<<<<<< HEAD
 // project secion dynamic Html
-=======
-// project seccion dynamic Html
->>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
 
 const showModal = (projectInfo) => {
   const myModal = document.getElementById('myMOdal');
@@ -239,7 +235,6 @@ form.addEventListener('submit', (e) => {
     errorMessage.style.display = 'block';
   }
 });
-<<<<<<< HEAD
 
 // local storage
 
@@ -270,5 +265,3 @@ if (JSON.parse(localStorage.getItem('name')) !== null) {
   emailInput.setAttribute('value', localData.email);
   messageInput.value = localData.message;
 }
-=======
->>>>>>> 2d272c15b7c11d65baea6d3b50e013fea62e330b
