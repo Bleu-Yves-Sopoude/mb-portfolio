@@ -77,7 +77,7 @@ cancela.forEach((a) => {
 
 const projectInfo = [
   {
-    id: 2,
+    id: 1,
     name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/project1.png',
@@ -91,8 +91,8 @@ const projectInfo = [
     source: '#',
   },
   {
-    id: 1,
-    name: 'Project2 name goes here',
+    id: 2,
+    name: 'Project name goes here',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis. Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     image: './images/project2.png',
     alt: 'laptop',
@@ -216,16 +216,16 @@ projectInfo.forEach((project, index) => {
 </div>
 </article>`;
 
-soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
-gall.appendChild(soloArticle);
-const button = document.getElementById(`btn${projectId}`);
-button.addEventListener('click', () => {
-  showModal(project);
-  const closemodalX = document.getElementById('closemodalX');
-  closemodalX.addEventListener('click', () => {
-    closeModal();
+  soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
+  gall.appendChild(soloArticle);
+  const button = document.getElementById(`btn${projectId}`);
+  button.addEventListener('click', () => {
+    showModal(project);
+    const closemodalX = document.getElementById('closemodalX');
+    closemodalX.addEventListener('click', () => {
+      closeModal();
+    });
   });
-});
 });
 
 // form validation
