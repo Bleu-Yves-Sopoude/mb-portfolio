@@ -700,17 +700,6 @@ label {
     zoom: 1.5;
   }
 
-  .card3 {
-    display: grid;
-    align-content: end;
-    grid-column: 1;
-    grid-row: 2 / 4;
-  }
-
-  .card3 img {
-    align-items: end;
-    width: 100%;
-  }
 
   .card4 {
     grid-column: 2 / 4;
@@ -721,45 +710,8 @@ label {
     background-size: contain;
   }
 
-  .cardx {
-    grid-column: 4;
-    grid-row: 2;
-  }
+  
 
-  .cardx img {
-    width: 100%;
-  }
-
-  .card5 {
-    grid-column: 4;
-    grid-row: 3 / 5;
-  }
-
-  .card5 img {
-    width: 100%;
-  }
-
-  .card img {
-    cursor: pointer;
-  }
-
-  .card6 {
-    grid-column: 1 / 3;
-    grid-row: 4 / 6;
-  }
-
-  .card6 img {
-    width: 100%;
-  }
-
-  .card7 {
-    grid-column: 3 / 5;
-    grid-row: 5 / 6;
-    background-image: url(images/project/image-geometry_3.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-  }
 
   .card8 {
     grid-column: 1 / 3;
@@ -786,11 +738,7 @@ label {
     width: 70%;
   }
 
-  .card:hover .pData {
-    visibility: visible;
-    opacity: 100%;
-  }
-
+  
 
 
 
