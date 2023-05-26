@@ -5,11 +5,9 @@ const deskListElement = document.querySelector('.desk ul');
 const topImgElement = document.getElementById('top-img');
 const bottomImgElement = document.getElementById('bottom-img');
 
-
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
-    
     deskElement.style.display = 'flex';
     deskElement.style.background = '#fff';
     deskElement.style.position = 'absolute';
