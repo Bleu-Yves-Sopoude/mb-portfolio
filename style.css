@@ -157,6 +157,15 @@ h3 {
   width: 314px;
 }
 
+.see {
+  background: none;
+  border: #fff solid 0.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  color: #dddfe6;
+}
+
 .projectLi {
   font-size: 10.33px;
   background-color: #98dede;
@@ -167,6 +176,7 @@ h3 {
   padding-top: 1.5px;
   padding-bottom: 1.5px;
 }
+
 
 /* Popup Project Mobile */
 
@@ -858,12 +868,14 @@ label {
     opacity: 100%;
   }
 
+  
+
   /* Modal POPUP */
 
   .modal-container {
     border: 40px solid #1a2236;
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     background-color: white;
     position: fixed;
@@ -872,6 +884,8 @@ label {
     visibility: visible;
     box-sizing: border-box;
     max-height: 100%;
+    max-width: 60%;
+    margin-left: 25%;
   }
 
   .modal-content {
@@ -887,7 +901,7 @@ label {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.5;
     padding: 0;
   }

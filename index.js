@@ -215,16 +215,17 @@ projectInfo.forEach((project, index) => {
     </button>
 </div>
 </article>`;
-  soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
-  gall.appendChild(soloArticle);
-  const button = document.getElementById(`btn${projectId}`);
-  button.addEventListener('click', () => {
-    showModal(project);
-    const closemodalX = document.getElementById('closemodalX');
-    closemodalX.addEventListener('click', () => {
-      closeModal();
-    });
+
+soloArticle.innerHTML = `${cardContainer} <div class="card card-back${index + 2}"></div>`;
+gall.appendChild(soloArticle);
+const button = document.getElementById(`btn${projectId}`);
+button.addEventListener('click', () => {
+  showModal(project);
+  const closemodalX = document.getElementById('closemodalX');
+  closemodalX.addEventListener('click', () => {
+    closeModal();
   });
+});
 });
 
 // form validation

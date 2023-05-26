@@ -33,7 +33,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**Felipe Portfolio** is a responsive webpage who can open in mobile and desktop too.
+**Bleu Yves Sopoude Portfolio** is a responsive webpage who can open in mobile and desktop too with differents section such as, nav bar, portfolio, projects about section and a working form.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +59,7 @@ HTML5  CSS3 JS
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://bleu-yves-sopoude.github.io/#)
+- [Live Demo Link](https://bleu-yves-sopoude.github.io/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,6 +105,11 @@ Clone this repository to your desired folder:
 👤 **Bleu Yves Sopoude**
 
 - GitHub: [@Bleu-Yves-Sopoude](https://github.com/Bleu-Yves-Sopoude/mb-portfolio.git)
+
+
+- Linkedin: [@Bleu-Yves-Sopoude](https://www.linkedin.com/in/bleu-yves/)
+
+- Linkedin: [@Bleu-Yves-Sopoude](https://twitter.com/bleuYves)
 
 👤 **Chaw Ma Ma Win**
 
