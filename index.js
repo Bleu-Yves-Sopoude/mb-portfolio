@@ -1,42 +1,45 @@
-// mobile menu
-
 const menuContainer = document.getElementById('toolbar');
 const iconImage = menuContainer.querySelector('img');
+const deskElement = document.querySelector('.desk');
+const deskListElement = document.querySelector('.desk ul');
+const topImgElement = document.getElementById('top-img');
+const bottomImgElement = document.getElementById('bottom-img');
+
+// mobile menu
 
 let controller = false;
 menuContainer.addEventListener('click', () => {
   if (!controller) {
-    document.querySelector('.desk').style.display = 'flex';
-    document.querySelector('.desk').style.background = '#fff';
-    document.querySelector('.desk').style.position = 'absolute';
-    document.querySelector('.desk').style.width = '100%';
-    document.querySelector('.desk').style.height = '100vh';
-    document.querySelector('.desk').style.top = '0px';
-    document.querySelector('.desk').style.position = 'fixed';
+    deskElement.style.display = 'flex';
+    deskElement.style.background = '#fff';
+    deskElement.style.position = 'absolute';
+    deskElement.style.width = '100%';
+    deskElement.style.height = '100vh';
+    deskElement.style.top = '0px';
+    deskElement.style.position = 'fixed';
 
     document.getElementById('toolbar').style.zIndex = '2';
 
-    document.getElementById('top-img').style.background = 'url("images/menu_mobile/image_geometry_menu_1.jpg")';
-    document.getElementById('top-img').style.position = 'absolute';
-    document.getElementById('top-img').style.width = '70vw';
-    document.getElementById('top-img').style.height = '30vh';
-    document.getElementById('top-img').style.top = '0px';
-    document.getElementById('top-img').style.left = '0';
-    document.getElementById('top-img').style.backgroundSize = '100%';
-    document.getElementById('top-img').style.backgroundRepeat = 'no-repeat';
+    topImgElement.style.background = 'url("images/menu_mobile/image_geometry_menu_1.jpg")';
+    topImgElement.style.position = 'absolute';
+    topImgElement.style.width = '70vw';
+    topImgElement.style.height = '30vh';
+    topImgElement.style.top = '0px';
+    topImgElement.style.left = '0';
+    topImgElement.style.backgroundSize = '100%';
+    topImgElement.style.backgroundRepeat = 'no-repeat';
+    bottomImgElement.style.background = 'url("images/menu_mobile/image_geometry_menu_2.jpg")';
+    bottomImgElement.style.position = 'absolute';
+    bottomImgElement.style.width = '100vw';
+    bottomImgElement.style.height = '220px';
+    bottomImgElement.style.bottom = '0';
+    bottomImgElement.style.backgroundSize = '100%';
+    bottomImgElement.style.backgroundRepeat = 'no-repeat';
 
-    document.getElementById('bottom-img').style.background = 'url("images/menu_mobile/image_geometry_menu_2.jpg")';
-    document.getElementById('bottom-img').style.position = 'absolute';
-    document.getElementById('bottom-img').style.width = '100vw';
-    document.getElementById('bottom-img').style.height = '220px';
-    document.getElementById('bottom-img').style.bottom = '0';
-    document.getElementById('bottom-img').style.backgroundSize = '100%';
-    document.getElementById('bottom-img').style.backgroundRepeat = 'no-repeat';
-
-    document.querySelector('.desk ul').style.listStyle = 'none';
-    document.querySelector('.desk ul').style.display = 'flex';
-    document.querySelector('.desk ul').style.flexDirection = 'column';
-    document.querySelector('.desk ul').style.alignItems = 'center';
+    deskListElement.style.listStyle = 'none';
+    deskListElement.style.display = 'flex';
+    deskListElement.style.flexDirection = 'column';
+    deskListElement.style.alignItems = 'center';
     document.querySelectorAll('.menu a').forEach((item) => {
       item.style.textDecoration = 'none';
       item.style.color = 'black';
@@ -50,8 +53,9 @@ menuContainer.addEventListener('click', () => {
       item.style.marginBottom = '30px';
     });
 
-    document.querySelector('.desk').style.paddingTop = '50%';
-    document.querySelector('.desk').style.justifyContent = 'center';
+    deskElement.style.paddingTop = '50%';
+    deskElement.style.justifyContent = 'center';
+
     iconImage.src = 'images/cancel.jpg';
 
     controller = true;

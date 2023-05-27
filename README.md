@@ -61,6 +61,7 @@ HTML5  CSS3 JS
 
 - [Live Demo Link](https://bleu-yves-sopoude.github.io/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +146,7 @@ Feel free to check my repository in GitHub.
 
 ## ⭐️ Show your support <a name="support"></a>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 If you like this project bring me a star in GitHub
